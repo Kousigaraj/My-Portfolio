@@ -1,5 +1,5 @@
-import Skills1 from './Skills1';
-import Skills2 from './Skills2';
+import Skills1 from '../components/Skills1';
+import Skills2 from '../components/Skills2';
 import React, { useState } from 'react';
 import '../css/skills.css';
 
