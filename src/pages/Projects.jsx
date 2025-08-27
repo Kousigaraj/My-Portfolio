@@ -18,8 +18,17 @@ const ProjectCard = ({ project }) => {
 };
 
 const Projects = () => {
-  const Projects  = [{
-    id: 1,
+  const Projects  = [
+    {
+      id: 1,
+      Name: "TaskMaster",
+      image: "taskmaster.png",
+      description: "A responsive task management web app with user authentication and an intuitive sidebar that overlays on mobile and stays static on desktop. It allows users to securely add, edit, and organize tasks, with Firebase used for storing user profile images.",
+      tech: "React.js, Node.js, Express.js, MongoDB, HTML, CSS, JavaScript, Zustand, Firebase",
+      link: "https://task-master-7uyt.onrender.com",
+    },
+    {
+    id: 2,
     Name: "Random Quote Generator",
     image: "project1.png",
     description: "A simple React app that fetches and displays random quotes from an API. Users can generate new quotes with a click and share them on social media.",
@@ -27,20 +36,12 @@ const Projects = () => {
     link: "https://random-quote-machine-kousigaraj.netlify.app",
   },
   {
-    id: 2,
+    id: 3,
     Name: "JavaScript Calculator",
     image: "project2.png",
     description: "A fully functional calculator built with React.js that performs basic arithmetic operations with a responsive UI and intuitive button interactions.",
     tech: "React.js, HTML, CSS, JavaScript",
     link: "https://javascript-calculator-kousigaraj.netlify.app",
-  },
-  {
-    id: 3,
-    Name: "Drum Machine",
-    image: "project3.png",
-    description: "An interactive drum machine app created using React.js, allowing users to play different drum sounds by clicking buttons or pressing corresponding keys.",
-    tech: "React.js, HTML, CSS, JavaScript, Audio API",
-    link: "https://drum-machine-kousigaraj.netlify.app",
   },
 ];
   return (
